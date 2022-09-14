@@ -440,3 +440,16 @@ footer>div{
         margin-bottom: 1rem;
     }
 }
+@media(min-width:767px){
+    .icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .icons>a>img{
+        margin-top:5px;
+    }
+    .bottom-section{
+        padding-top: 0;
+    }
+}
